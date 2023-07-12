@@ -1,0 +1,7 @@
+onsentStatus[ConsentStatus["DISMISSED"] = 1] = "DISMISSED";
+    ConsentStatus[ConsentStatus["REJECTED"] = 2] = "REJECTED";
+    ConsentStatus[ConsentStatus["MIN_VALUE"] = 0] = "MIN_VALUE";
+    ConsentStatus[ConsentStatus["MAX_VALUE"] = 2] = "MAX_VALUE";
+})(ConsentStatus || (ConsentStatus = {}));
+export class CartHandlerPendingReceiver {
+    constructor(
